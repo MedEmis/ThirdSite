@@ -317,6 +317,11 @@ textarea {
 	border-top: 1px solid #000;
 	background-color: #f8f7f7;
 }
+@media (max-width: 545px) {
+	.input {
+		max-width: 100%;
+	}
+}
 .input.focus {
 	border-top: 1px solid #00ff0d;
 }
@@ -1653,6 +1658,11 @@ body.ie .ibg img {
 		padding: 5px 30px;
 	}
 }
+@media (max-width: 545px) {
+	.block-potfolio__column {
+		max-width: 100%;
+	}
+}
 .block-potfolio__item img {
 	max-width: 100%;
 }
@@ -2013,11 +2023,26 @@ body.ie .ibg img {
 	font-weight: 700;
 }
 
+@media (max-width: 420px) {
+	.input {
+		min-width: 300px;
+	}
+}
+@media (max-width: 321px) {
+	.input {
+		min-width: 280px;
+	}
+}
 .input__input-message {
 	background-color: #f8f7f7;
 	border-top: 1px solid;
 	min-width: 380px;
 	min-height: 120px;
+}
+@media (max-width: 780px) {
+	.input__input-message {
+		min-width: 480px;
+	}
 }
 @media (max-width: 420px) {
 	.input__input-message {
